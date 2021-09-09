@@ -11,7 +11,7 @@
 * To Install Download the repository from this GitHub and follow the steps below to properly run the application.
 
 ## Usage
-* To Start the Web Application use the shell command:
+* To Start the Web Application use the shell command below:
 ```sh
 yarn run start
 ```
