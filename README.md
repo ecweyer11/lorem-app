@@ -1,6 +1,6 @@
 <h1 align="center">Welcome to the Lorem Ipsum Generator 👋</h1>
 <p>
-  <a href="https://tldrlegal.com/license/gnu-general-public-license-v3-(gpl-3)" target="_blank">
+  <a href="https://github.com/c10udy/lorem-app/blob/master/LICENSE.md" target="_blank">
     <img alt="License: GNU General Public License v3 (GPL--3)" src="https://img.shields.io/badge/License-GNU General Public License v3 (GPL--3)-red.svg" />
   </a>
 </p>
