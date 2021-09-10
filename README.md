@@ -15,6 +15,8 @@
 ```sh
 yarn run start
 ```
+#
+*Disclaimer: This is not a production build. This is an open-source project. You can download this project and run it inside the browser.*
 
 ## Author
 
