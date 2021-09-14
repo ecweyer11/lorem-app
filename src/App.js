@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
-import data from './data';
+import React, { useState } from "react";
+import data from "./data";
 
 function App() {
   const [count, setCount] = useState(1);
   const [text, setText] = useState([]);
-  
+
   const handleSubmit = (e) => {
     e.preventDefault();
     let amount = parseInt(count);
@@ -16,12 +16,12 @@ function App() {
       <h4>Tired of Boring Placeholder Text? Heres the solution:</h4>
       <form className="lorem-form" onSubmit={handleSubmit}>
         <label htmlFor="amount">paragraphs:</label>
-        <input 
-          type='number'
-          min='1'
-          max='8'
-          name='amount'
-          id='amount'
+        <input
+          type="number"
+          min="1"
+          max="8"
+          name="amount"
+          id="amount"
           value={count}
           onChange={(e) => setCount(e.target.value)}
         />
@@ -29,7 +29,7 @@ function App() {
       </form>
       <article className="lorem-text">
         {text.map((item, index) => {
-          return <p key={index}>{item}</p>
+          return <p key={index}>{item}</p>;
         })}
       </article>
     </section>

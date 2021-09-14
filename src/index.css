@@ -1,29 +1,26 @@
 :root {
   /* dark shades of primary color*/
-  --clr-primary-1: hsl(205, 86%, 17%);
-  --clr-primary-2: hsl(205, 77%, 27%);
-  --clr-primary-3: hsl(205, 72%, 37%);
-  --clr-primary-4: hsl(205, 63%, 48%);
+  --clr-primary-1: #002400;
+  --clr-primary-2: #002e04;
+  --clr-primary-3: #00380e;
+  --clr-primary-4: #004218;
   /* primary/main color */
-  --clr-primary-5: hsl(205, 78%, 60%);
+  --clr-primary-5: #0a4c22;
   /* lighter shades of primary color */
-  --clr-primary-6: hsl(205, 89%, 70%);
-  --clr-primary-7: hsl(205, 90%, 76%);
-  --clr-primary-8: hsl(205, 86%, 81%);
-  --clr-primary-9: hsl(205, 90%, 88%);
-  --clr-primary-10: hsl(205, 100%, 96%);
+  --clr-primary-6: #14562c;
+  --clr-primary-7: #1e6036;
+  --clr-primary-8: #286a40;
+  --clr-primary-9: #32744a;
+  /* Off White */
+  --clr-primary-10: #e6f8ec;
   /* darkest grey - used for headings */
-  --clr-grey-1: hsl(209, 61%, 16%);
-  --clr-grey-2: hsl(211, 39%, 23%);
-  --clr-grey-3: hsl(209, 34%, 30%);
-  --clr-grey-4: hsl(209, 28%, 39%);
+  --clr-grey-1: #2d3a32;
+  --clr-grey-2: #1b231e;
+  --clr-grey-3: #111613;
   /* grey used for paragraphs */
-  --clr-grey-5: hsl(210, 22%, 49%);
-  --clr-grey-6: hsl(209, 23%, 60%);
-  --clr-grey-7: hsl(211, 27%, 70%);
-  --clr-grey-8: hsl(210, 31%, 80%);
-  --clr-grey-9: hsl(212, 33%, 89%);
-  --clr-grey-10: hsl(210, 36%, 96%);
+  --clr-grey-4: #72917d;
+  --clr-grey-5: #5d7566;
+  --clr-grey-6: #425448;
   --clr-white: #fff;
   --clr-red-dark: hsl(360, 67%, 44%);
   --clr-red-light: hsl(360, 71%, 66%);
@@ -55,7 +52,7 @@ Global Styles
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  background: var(--clr-grey-10);
+  background: var(--clr-primary-10);
   color: var(--clr-grey-1);
   line-height: 1.5;
   font-size: 0.875rem;
@@ -117,14 +114,14 @@ p {
 /*  global classes */
 .btn {
   text-transform: uppercase;
-  background: var(--clr-primary-5);
-  color: var(--clr-primary-1);
+  background: var(--clr-primary-9);
+  color: var(--clr-primary-10);
   padding: 0.375rem 0.75rem;
   letter-spacing: 1px;
   display: inline-block;
   transition: var(--transition);
   font-size: 0.875rem;
-  border: 2px solid var(--clr-primary-5);
+  border: 2px solid var(--clr-primary-4);
   cursor: pointer;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   border-radius: var(--radius);
@@ -132,9 +129,8 @@ p {
   margin-right: 0.5rem;
 }
 .btn:hover {
-  color: var(--clr-primary-5);
-  background: var(--clr-primary-8);
-  border-color: var(--clr-primary-8);
+  background: var(--clr-primary-6);
+  border-color: var(--clr-primary-3);
 }
 
 /* section */
@@ -166,7 +162,7 @@ Lorem Ipsum
 */
 h3 {
   text-transform: uppercase;
-  color: var(--clr-primary-1);
+  color: var(--clr-grey-1);
 }
 .lorem-form {
   text-transform: capitalize;
@@ -179,7 +175,7 @@ h3 {
 }
 label {
   font-size: 1.25rem;
-  color: var(--clr-primary-1);
+  color: var(--clr-primary-4);
 }
 input {
   padding: 0.25rem 0.5rem;
